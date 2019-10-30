@@ -1,0 +1,46 @@
+卷 事件 的文件夹 PATH 列表
+卷序列号为 1C5A-6B6F
+E:.
+├─client
+│  ├─public
+│  └─src
+│      ├─assets
+│      ├─components
+│      │  ├─account
+│      │  ├─checkout
+│      │  ├─collage
+│      │  ├─member
+│      │  ├─order
+│      │  ├─orderDetail
+│      │  └─pay
+│      ├─skeleton
+│      │  ├─components
+│      │  └─views
+│      ├─store
+│      │  └─modules
+│      ├─style
+│      ├─utils
+│      └─views
+│          ├─Collage
+│          ├─Common
+│          ├─Home
+│          ├─Member
+│          ├─networkFail
+│          ├─Orders
+│          │  └─views
+│          ├─pay
+│          ├─Search
+│          └─Shop
+└─server
+    ├─Avatar
+    ├─controller
+    ├─GoodImg
+    │  ├─common
+    │  └─events
+    ├─modules
+    ├─routes
+    │  ├─admin
+    │  └─user
+    └─utils
+        ├─images
+        └─user

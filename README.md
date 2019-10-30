@@ -3,7 +3,16 @@
 
 ---
 
+
+
 <a name="返回顶部"></a>
+
+
+```
+  javacript
+  <script src="mermaid.full.min.js"></script>
+```
+
 <html>
 <center>
 <h3>水果商城（基于VUE和node.js开发的移动端）<a href="http://sunnyboy1994.gitee.io/practice/fruitShop/dist/">
@@ -110,75 +119,12 @@
 
 <a name=“客户端功能”></a>
 
-```
-graph LR
-FruitShop-->主页
-主页-->搜索
-主页-->商品展示
-商品展示-->商品详情
-商品展示-->商品分享
-主页-->附近商店地址
-主页-->会员码
+![alt fruitShopClient](https://www.z4a.net/images/2019/10/30/123123.png)
 
-
-FruitShop-->拼团商品
-拼团商品-->拼团商品展示
-拼团商品展示-->商品详情
-拼团商品展示-->商品分享
-拼团商品-->附近商店地址
-拼团商品-->搜索
-
-FruitShop-->订单页
-订单页-->普通商品订单
-订单页-->拼团商品订单
-拼团商品订单-->订单取消
-拼团商品订单-->订单重购
-拼团商品订单-->订单付款
-拼团商品订单-->订单分享
-拼团商品订单-->订单取货码查看
-拼团商品订单-->联系店家
-普通商品订单-->订单取消
-普通商品订单-->订单重购
-普通商品订单-->订单付款
-普通商品订单-->联系店家
-
-附近商店地址-->商店列表
-商店列表-->商店详情
-商店详情-->地理位置查看
-FruitShop-->会员页
-会员页-->登录/注册/短信验证码
-会员页-->会员头像查看和更改
-会员页-->会员积分
-会员页-->优惠券
-会员页-->钱包充值
-会员页-->签到
-会员页-->会员码
-会员页-->地址管理
-会员页-->修改密码
-
-```
 ### 服务端功能
 
-```
-graph LR
+![api.png](https://www.z4a.net/images/2019/10/30/api.png)
 
-api接口-->后台管理api
-api接口-->客户端api
-后台管理api-->商品模型的增删改查
-客户端api-->用户登录/注册验证
-客户端api-->用户信息查看&修改
-客户端api-->用户头像处理
-客户端api-->用户钱包查看&充值
-客户端api-->用户会员码生成
-客户端api-->用户积分
-客户端api-->商品查看
-客户端api-->商品活动
-客户端api-->商品搜索
-客户端api-->订单下单&取消
-客户端api-->订单未付款自动取消
-客户端api-->订单退款
-客户端api-->检查库存
-```
 -----
 
 ### 快速预览
@@ -219,13 +165,13 @@ api接口-->客户端api
 
 <a name="xiaomi"></a>
 
-### 导航  ： [技术栈](#小米技术栈) [目录结构](#小米目录结构)  [客户端功能](#小米客户端功能) [服务端功能](#小米服务端功能) [快速预览](#小米快速预览) 
+### 导航  ： [技术栈](#xiaomite) [目录结构](#xiaomitree)  [客户端功能](#xiaomiclient) [服务端功能](#xiaomiserver) [快速预览](#xiaomiquiclk) 
 
 
 ----------
 ### 技术栈
 
-<a name=“小米技术栈”></a>
+<a name=“xiaomite”></a>
 
 1. #### 客户端 （移动端）
     - ##### vue全家桶
@@ -248,7 +194,7 @@ api接口-->客户端api
 
 ### 目录结构
 
-<a name=“小米目录结构”></a>
+<a name=“xiaomitree”></a>
 
 ```
 ├─client        //客户端
@@ -274,45 +220,16 @@ api接口-->客户端api
 
 ### 客户端功能 
 
-<a name=“小米客户端功能”></a>
+<a name=“xiaomiclient”></a>
+![xiaomiclient.png](https://www.z4a.net/images/2019/10/30/xiaomiclient.png)
 
-```
-graph LR
-小米商城-->主页
-主页-->搜索
-主页-->商品展示
-商品展示-->商品详情
-商品展示-->商品评论
-商品评论-->评论点赞
-商品展示-->商品购买
-小米商城-->商品分类
-小米商城-->购物车
-购物车-->结算
-结算-->地址管理
-小米商城-->个人页面
-个人页面-->订单详情
-订单详情-->订单评论
-个人页面-->登录注册
-
-```
 ### 服务端功能
-<a name="#小米服务端功能"></a>
-```
-graph LR
-
-api接口-->客户端api
-客户端api-->用户订单详情
-客户端api-->商品详情 
-客户端api-->商品分类详情
-客户端api-->登录&注册
-客户端api-->订单结算
-客户端api-->购物车
-客户端api-->商品搜索
-```
+<a name="#xiaomiserver"></a>
+![xiaomiserver.png](https://www.z4a.net/images/2019/10/30/xiaomiserver.png)
 -----
 
 ### 快速预览
-<a name="#小米快速预览"></a>
+<a name="#xiaomiquick"></a>
 [![xiaomiHome.png](https://www.z4a.net/images/2019/10/30/xiaomiHome.png)](https://www.z4a.net/image/UYcFd0)
 [![classi.png](https://www.z4a.net/images/2019/10/30/classi.png)](https://www.z4a.net/image/UYcRNa)
 [![check.png](https://www.z4a.net/images/2019/10/30/check.png)](https://www.z4a.net/image/UYcvKA)

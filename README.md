@@ -243,7 +243,7 @@
 <a name="chanke"></a>
 <html>
 <center>
-<h3>蝉壳学院教育首页<a href="http://sunnyboy1994.gitee.io/practice/chanke/dist/">
+<h3>蝉壳学院教育首页<a href="http://sunnyboy1994.gitee.io/practice/chanke/dist/index.html#/">
 在线体验
 </a>
 </h1>

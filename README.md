@@ -1,5 +1,5 @@
 
-## 个人项目  ： [水果商城](#fruitShop) [小米商城](#xiaomi)  [关于我](#关于我) 
+## 个人项目  ： [水果商城](#fruitShop) [小米商城](#xiaomi) [蝉壳学院教育](#chanke)  [关于我](#关于我) 
 
 ---
 
@@ -240,7 +240,17 @@
 [![xiaomiOrder.png](https://www.z4a.net/images/2019/10/30/xiaomiOrder.png)](https://www.z4a.net/image/UYcKCj)
 
 -----
+<a name="chanke"></a>
+<html>
+<center>
+<h3>蝉壳学院教育首页<a href="http://sunnyboy1994.gitee.io/practice/chanke/dist/">
+在线体验
+</a>
+</h1>
+</center>
+</html>
 
+------
 ### About me 关于我
 <a name="关于我"></a>
 
